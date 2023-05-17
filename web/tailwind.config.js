@@ -7,11 +7,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
       fontFamily: {
         sans: 'var(--font-roboto)',
         alt: 'var(--font-bai-jamjuree)',
@@ -77,6 +72,16 @@ module.exports = {
           800: '#027435',
           900: '#025929',
         },
+      },
+      blur: {
+        full: '194px',
+      },
+      backgroundImage: {
+        stripes:
+          'linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 12.5%, transparent 12.5%, transparent)',
+      },
+      backgroundSize: {
+        stripes: '100% 8px',
       },
     },
   },
