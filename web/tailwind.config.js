@@ -6,6 +6,9 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    screens: {
+      md: '821px',
+    },
     extend: {
       fontFamily: {
         sans: 'var(--font-roboto)',
