@@ -21,14 +21,15 @@ export function MediaPicker() {
     <>
       <input
         onChange={onFileSelected}
+        name="coverUrl"
         type="file"
         id="media"
         className="invisible h-0 w-0"
-        accept='image/*'
+        accept="image/*"
       />
 
       {preview && (
-        // eslint-disable-next-lin e
+        // eslint-disable-next-line
         <img
           src={preview}
           alt=""
